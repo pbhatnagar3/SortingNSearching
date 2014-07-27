@@ -1,5 +1,11 @@
-//implementing all the sorting algorithms 
-
+/**
+ *implementing all the sorting algorithms  
+ * @author pbhatnagar
+ * If you have any questions or comments, please feel free to contact
+ * me at pbhatnagar3@gatech.edu
+ *
+ * MAY THE FORCE OF COMPILER BE WITH YOU. :D
+ */
 public class MergeSort {
 public int[] mergeSort(int[] arr, int p, int r){
 	if(p==r){
@@ -58,7 +64,7 @@ public int[] subArray(int[] input, int p, int q){
 public static class testing{
 
 	public static void main(String[] args) {
-		Sort s = new Sort();
+		MergeSort s = new MergeSort();
 		int[] arr1 = {1,7,4,4,4,4,3,2,100};
 		int[] arr2 = {4,5,6};
 		

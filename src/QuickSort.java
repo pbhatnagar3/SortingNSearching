@@ -1,6 +1,9 @@
 //implementation of quick sort
 /**
- * 
+ * If you have any questions or comments, please feel free to contact
+ * me at pbhatnagar3@gatech.edu
+ *
+ * MAY THE FORCE OF COMPILER BE WITH YOU. :D 
  * @author pbhatnagar
  *
  */
