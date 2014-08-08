@@ -28,6 +28,8 @@ public class QuickSort {
 			while(arr[right] > pivot)
 				right--;
 			// now since we have the correct positions to replace all the elements. 
+			// we have to check this condition again since it may be so that 
+			//after the computation the left pivot is greater than right
 			if(left <= right){
 				swap(arr, left, right);
 				left++;
